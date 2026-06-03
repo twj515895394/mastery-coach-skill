@@ -1,0 +1,7 @@
+interface:
+  display_name: "Mastery Coach"
+  short_description: "Turn explanations into verified understanding through staged teaching, restatement, gap detection, and mastery checks."
+  brand_color: "#3B82F6"
+  default_prompt: "Use $mastery-coach to help me deeply understand this topic. Build a mastery checklist, teach stage by stage, and verify my understanding before moving on."
+policy:
+  allow_implicit_invocation: true
