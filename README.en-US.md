@@ -50,10 +50,15 @@ mastery-coach-skill/
 ├── references/
 │   ├── mastery_levels.md
 │   ├── question_design_patterns.md
+│   ├── general_learning_guide.md
 │   ├── coding_session_guide.md
 │   ├── non_coding_session_guide.md
 │   └── facilitation_guardrails.md
 ├── examples/
+│   ├── child_learning_example.md
+│   ├── adult_self_learning_example.md
+│   ├── parent_child_coaching_example.md
+│   ├── teacher_lesson_design_example.md
 │   ├── coding_debugging_example.md
 │   ├── architecture_review_example.md
 │   ├── business_process_example.md
@@ -69,6 +74,15 @@ mastery-coach-skill/
 
 ## Use cases
 
+### General learning
+
+- Help children learn science, language, math, history, stories, or everyday concepts.
+- Help teenagers prepare for exams, projects, reading comprehension, writing, or subject review.
+- Help adults learn new tools, hobbies, domains, languages, or professional skills.
+- Help parents guide children through questions instead of simply giving answers.
+- Help teachers design staged lessons, classroom questions, review drills, and mastery checks.
+- Help self-learners convert passive reading into active understanding.
+
 ### Coding
 
 - Understand a bug fix before merging.
@@ -77,7 +91,7 @@ mastery-coach-skill/
 - Explain stack traces, data flow, concurrency, caching, or database behavior.
 - Prepare for technical interviews.
 
-### Non-coding
+### Non-coding work
 
 - Learn a business process.
 - Review product requirements.
@@ -87,6 +101,18 @@ mastery-coach-skill/
 - Train creative workflows such as storyboards, prompt systems, or content strategy.
 
 ## Example prompts
+
+```text
+Use $mastery-coach to teach my 8-year-old what AI is. Use simple analogies, short questions, and a gentle teach-back check.
+```
+
+```text
+Use $mastery-coach to help me learn English grammar as an adult beginner. Do not make it childish; help me practice step by step.
+```
+
+```text
+Use $mastery-coach to help me guide my child through fractions. Do not just give the answer; give me parent coaching prompts.
+```
 
 ```text
 Use $mastery-coach to teach me this PR. Start with the problem and data flow, then quiz me on the root cause and edge cases.
